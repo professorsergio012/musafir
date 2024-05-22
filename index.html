@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musafir Travel Agency</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style1.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>m</span>Musafir</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <!-- <a href="#book">book</a> -->
+            <a href="#gallery">gallery</a>
+            <!-- <a href="#review">review</a> -->
+            <a href="#contact">contact us</a>
+            <a href="https://abhisheky45.github.io/resume-/">About us</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <!-- <i class="fas fa-user" id="login-btn"></i> -->
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Adventure is Worthwhile</h3>
+            <p>dicover new places with us, adventure awaits</p>
+            <!-- <a href="#packages" class="btn">discover more</a> -->
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <!-- <span class="vid-btn" data-src="images/vid-4.mp4"></span> -->
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/p-1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Mumbai </h3>
+                    <p>Mumbai has many tourist places to visit, there are very nice sightseeing,attractions in Mumbai
+                        which are must see in destination.Amazing place to spend holidays.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $2190.00 <span>$120.00 </div>
+                    <a href="mumbai.html" class="btn btn-btn" target="_blank">More Info</a>
+                    <a href="form.html" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-2.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Hawaii </h3>
+                    <p>Then the visitors all came flooding back. “Over-tourism” has long been a complaint of locals on
+                        the Hawaiian island that is among the world.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $4990.00 </div>
+                    <a href="hawaii.html" class="btn btn-btn" target="_blank">More Info</a>
+                    <a href="form.html" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-3.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Sydney </h3>
+                    <p>Enjoy Sydney's natural beauty from recognisable landmarks like the Harbour, alongside city
+                        streets and visit sacred sites hidden in popular tourist precincts.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $5990.00</div>
+                    <a href="sydney.html" class="btn btn-btn" target="_blank">More Info</a>
+                    <a href="form.html" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-4.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Paris </h3>
+                    <p>A US passport is required for U.S. residents traveling to Paris; children of all ages
+                        must have them, too.Explore Paris holidays and discover the best time and places to visit.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $3990.00 </div>
+                    <a href="paris.html" class="btn btn-btn" target="_blank">More Info</a>
+                    <a href="form.html" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-5.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Tokyo </h3>
+                    <p>Tokyo's best sights and local secrets from travel experts you can trust.Yoking past and future,
+                        Tokyo dazzles with its traditional culture and passion</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $2990.00</div>
+                    <a href="tokyo.html" class="btn btn-btn" target="_blank">More Info</a>
+                    <a href="form.html" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Egypt </h3>
+                    <p>Egypt stimulates the imagination of western tourists like few other countries and is probably one
+                        of the most popular tourist destinations world-wide.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $3590.00</div>
+                    <a href="egypt.html" class="btn btn-btn" target="_blank">More Info</a>
+                    <a href="form.html" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container container-services">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable Hotels</h3>
+                <p>It is one of the largest travel sellers of escorted tours, cruises, river cruises, and active
+                    vacations in the United States.The world is full of affordable places to visit! Here are ten best
+                    budget travel destinations that give you the most bang for your buck!</p>
+                <a href="services.html" class="btn btn-services" target="_blank">More Info</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>We have a massive collection of recipes that are submitted, rated and reviewed by people who are
+                    passionate about food.The best food and cooking blogs that exist online, ranked algorithmically and
+                    updated every 24 hours.</p>
+                <a href="foodtown.html" class="btn btn-btn" target="_blank">More Info</a>
+            </div>
+        </div>
+
+        <h2 class="heading">
+            <span>o</span>
+            <span>t</span>
+            <span>h</span>
+            <span>e</span>
+            <span>r</span>
+            <span class="space"></span>
+            <span class="space"></span>
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h2>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>Travel safety ·Keep your travel plans, including accommodation details, to yourself. · Don't hitch
+                    hike. ·Try not to travel at night. ·Avoid 'seedier' areas of the cities. From theft to kidnapping to
+                    losing your passport, a lot can go wrong abroad. Follow these basic travel safety tips to prevent
+                    theft.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Our agents offer superior service and travel expertise. A full service agency offering deals on
+                    all-inclusive packages, cruises, family. A world-class team of experts will accompany each
+                    expedition to share their knowledge and insights.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Even Orion won't represent the peak of our speed potential, though. “There is no real practical limit
+                    to how fast we can travel, other than the speed.Much as oil and gas travel through pipes, cargo and
+                    passengers may soon find themselves shooting through pneumatic tubes at speeds</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>The Adventure Travel Trade Association inspires, connects and empowers the global community to do
+                    good through travel.It is a type of niche tourism, involving exploration or travel with a certain
+                    degree of risk (real or perceived), and which may require special skills</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- book section starts  -->
+
+    <!-- <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span class="space"></span>
+            <span>u</span>
+            <span>s</span>
+            <span class="space"></span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="Place Name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="Number of Guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+
+        </div>
+
+    </section> -->
+
+    <!-- book section ends -->
+
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>The world's most beautiful island travel to the Caribbean, Hawaii, Tahiti and Mexico with expert
+                        reviews of resorts,the best islands to live on.</p>
+                    <!-- <a href="#" class="btn">see more</a> -->
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p> Famous for diving, hiking, beaches, and fishing, this is one of the best tropical travel
+                        destinations in Southeast Asia. Check out the recommended.</p>
+                    <!-- <a href="#" class="btn">see more</a> -->
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>People often combine their love of history with other tourist delights like shopping, amusement
+                        park visits, and luxurious resort stays.</p>
+                    <!-- <a href="#" class="btn">see more</a> -->
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Heritage Tourism is one of the branch of tourism in India towards the cultural heritage of the
+                        location and historic places.</p>
+                    <!-- <a href="#" class="btn">see more</a> -->
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>
+                        Put every infinity pool you’ve ever seen to shame with these natural, snow-white hot springs
+                        overlooking the nearby city of Denizli.</p>
+                    <!-- <a href="#" class="btn">see more</a> -->
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>There are so many amazing places around the globe to see, we couldn't possibly include them all
+                        in just one list.</p>
+                    <!-- <a href="#" class="btn">see more</a> -->
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>The canals with a be-striped gondolier sounds unbearably touristy, bridges to get your fill of
+                        this truly unique,wildly romantic floating city.</p>
+                    <!-- <a href="#" class="btn">see more</a> -->
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>The glacial lakes in Canada's first national park have some of the bluest water you've ever seen.
+                    </p>
+                    <!-- <a href="#" class="btn">see more</a> -->
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>If you're looking to get off the grid, head to Chile's Patagonia region for some of the most
+                        beautiful mountain views you'll ever see.</p>
+                    <!-- <a href="#" class="btn">see more</a> -->
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+            <span>s</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic1.png" alt="">
+                        <h3>Rachel</h3>
+                        <p>The best travel agency. The planning and timing by the agency was great. Accommodation was
+                            also good at 3star hotels. The package was reasonable. Thanks to Travelling bud.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic2.png" alt="">
+                        <h3>Ross</h3>
+                        <p>Very committed service with proper follow-up. Service provided as per their schedule with a
+                            hassle free journey... thanks to ITS tours and travels for providing services</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic3.png" alt="">
+                        <h3>Monica</h3>
+                        <p>Derleng Tours is the tour based agency provide everything they mention in their packages.
+                            Great guider and professional.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic4.png" alt="">
+                        <h3>Joey</h3>
+                        <p>Derleng Tours is the tour based agency provide everything they mention in their packages.
+                            Great guider and professional.It was a great trip to Siem Reap with friends, i really
+                            enjoyed exploring the old temples in Cambodia.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+            <span class="space"></span>
+            <span class="space"></span>
+            <span>u</span>
+            <span>s</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+
+            <form action="/contact" method="POST">
+
+                <div class="inputBox">
+                    <input type="text" name="name" placeholder="name">
+                    <input type="email" name="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" name="number" placeholder="number">
+                    <input type="text" name="subject" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="message" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+
+        </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- brand section  -->
+    <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- footer section  -->
+    <main class="foot">
+        <section class="footer">
+
+            <div class="box-container">
+
+                <!-- <div class="box">
+                <h3>about us</h3>
+                <p>Tourism involves travel and stay, can also include day trips, business trips, etc. There is a movement of tourists from the place of origin to the destination. Tourism also involves a journey and services like transport, accommodation, catering, and viewing, etc.</p>
+                <a href="./about us.html" class="btn btn-btn" target="_blank">More Info</a>
+
+            </div> -->
+                <div class="box" id="box1">
+                    <h3>branch locations</h3>
+                    <a href="#">india</a>
+                    <a href="#">USA</a>
+                    <a href="#">japan</a>
+                    <a href="#">france</a>
+                </div>
+                <div class="box" id="box2">
+                    <h3>quick links</h3>
+                    <a href="#">home</a>
+                    <a href="#">book</a>
+                    <a href="#">packages</a>
+                    <a href="#">services</a>
+                    <a href="#">gallery</a>
+                    <a href="#">review</a>
+                    <a href="#">contact</a>
+                </div>
+                <div class="box" id="box3">
+                    <h3>follow us</h3>
+                    <a href="https://www.facebook.com/" target="_blank">facebook</a>
+                    <a href="https://www.instagram.com/" target="_blank">instagram</a>
+                    <a href="https://www.twitter.com/" target="_blank">twitter</a>
+                    <a href="https://www.linkedin.com/" target="_blank">linkedin</a>
+                </div>
+
+            </div>
+
+            <h1 class="credit"> COPYRIGHT <span> Musafir Agency </span> | all rights reserved! </h1>
+
+        </section>
+    </main>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./Musafir/public/script.js"></script>
+
+</body>
+
+</html>
