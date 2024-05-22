@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  /* background-color: rgba(77, 73, 73, 0.1); */
+  --heaven:#FFFFFF;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+}
+.navbar li{
+
+  margin-bottom: 1rem;
+  list-style: none;
+  margin-top: 1.5rem;
+}
+.navbar li a{
+  text-decoration: none;
+  padding: 1.2rem 1.5rem ;
+  font-size: 1.4rem;
+  color: #232B38;
+  font-weight: bolder;
+  /* margin-right: 1rem; */
+}
+.navbar a:hover{
+  background: var(--primary);
+  color: var(--pure);
+}
+.navbar a.active                                              /*Space nhi diya dot ke baad kuki anchor aur class same element ki hai*/
+{
+    background: var(--primary);
+    color: var(--pure);
+}
+
+
+.section{
+    /* border: 2px solid black; */
+    margin: 1rem ;
+}
+.section-heading
+{
+    /* font-family: "Raleway-bold"; */
+    position: relative;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+}
+.section-heading:after{
+    content: ""; 
+    display: block;
+    width:100%;
+    height: 30px;
+    background-image:url(../images/hr.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: -40px;
+}
+  section.section .head{
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    font-size: 2rem;
+    text-align: center;
+}
+section.section .head2{
+  /* padding-top: 1rem; */
+  margin-bottom: -2rem;
+}
+ .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+  }
+  
+ .box-container .box{
+    flex:1 ;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  
+ .box-container .box img{
+    height: 22rem;
+    width:100%;
+    object-fit: cover;
+  }
+  
+ .box-container .box .content{
+    padding:2rem;
+  }
+  
+ .box-container .box .content h3{
+    font-size:1.5rem;
+    color:#333;
+  }
+  
+ .box-container .box .content h3 i{
+    color:#6936e0;
+  }
+  
+ .box-container .box .content p{
+    font-size:1.1rem;
+    color:#666;
+    padding:1rem 0;
+  }
+  
+ .box-container .box .content .stars i{
+    font-size:1.7rem;
+    color:#6936e0;
+  }
+  
+ .box-container .box .content .price{
+    font-size: 1.5rem;
+    color:#333;
+    padding-top: 1rem;
+  }
+  
+ .box-container .box .content .price span{
+    color:#666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+  }
+ .box-container .box{
+    transition: all .3s ease-in-out;
+  }
+ .box-container .box:hover{
+    transform: scale(1.05);
+  }
+
+  .credit{
+    background: #333;
+    color: white;
+    text-align: center;
+    margin-top: -2.5rem;
+  }
+  
+
+
+
+
+.magic-shadow
+{
+    position: relative;
+    background: var(--heaven);
+}
+.magic-shadow::after{                                                  
+    content: "";
+    width: 100%;
+    height: 69px;
+    display: block;
+    background: url(../images/shadow.svg) no-repeat center ;
+    bottom: -20px;                                                    
+    z-index: -1;
+    position: absolute;
+}
+
+:root{
+  --primary:#EEBF00;
+  --pure:#FEFEFE;
+}

@@ -1,0 +1,58 @@
+/* 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.section{
+    
+    margin: 1rem 5rem;
+}
+section.places{
+    background: #FFFFFF;
+}
+.head{
+    background-color:rgba(21, 40, 216, 0.1);
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2rem;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.place1{
+    display: flex;
+}
+.img,
+.para {
+    flex: 1;
+}
+.firsthead{
+    margin: 2.5rem 0;
+    text-align: center;
+    font-size: 2rem;
+ 
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
+    background-color:rgba(21, 40, 216, 0.1);
+}
+.place1 .img{
+    height: 500px;
+    width: 100px;
+}
+.para{
+    text-align: center;
+    align-items: center;
+    margin: 0rem 3rem;
+    font-size: 1.3rem;
+   
+    background-color:rgba(70, 70, 73, 0.1);
+    font-family: 'Otomanopee One', sans-serif;
+}
+footer.credit{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+} */
